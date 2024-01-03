@@ -57,7 +57,7 @@ function GameBoard() {
     cardsArray = cardsArray.concat(cardsArray);
     cardsArray.sort(() => Math.random() - 0.5);
     setCards(cardsArray);
-    setMatchesNeeded(cardsArray.length);
+    setMatchesNeeded(cardsArray.length / 2);
     console.log(cardsArray);
   }
 
