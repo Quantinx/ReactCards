@@ -1,8 +1,7 @@
-# React + Vite
+Based on the previous project where we constructed a memory card game using an API and localstorage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To assist in learning how React logic and structure differs from JavaScript I attempted to port the project over.
 
-Currently, two official plugins are available:
+Currently it mostly works how it did previously, however due to certain limitations and the more async nature of React, a few issues have cropped up.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is by no means intended as a 1:1 port of the original, but as a learning experience
